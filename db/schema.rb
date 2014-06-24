@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20140619005742) do
 
-  create_table "users", force: true do |t|
+  create_table "users" force: true do |t|
     t.string   "name"
     t.string   "email"
     t.datetime "created_at"
